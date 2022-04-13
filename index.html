@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo">MagicLeap
+            <img src="magic.jpeg" alt="logo" width="35px" />
+        </h1>
+        <ul class="nav-links">
+            <li class="active"><a href="https://www.magicleap.com/enterprise/solutions">Solutions</a></li>
+            <li><a href="https://www.magicleap.com/magic-leap-1">Device</a></li>
+            <li><a href="https://developer.magicleap.com/en-us/home">Developer</a></li>
+            <li><a href="https://www.magicleap.care/hc/en-us">Support</a></li>
+            <li><a href="https://www.magicleap.com/news">News</a></li>
+            <li><a href="https://www.magicleap.com/about">About</a></li>
+            <li class="ctn"><a href="https://www.magicleap.com/where-to-buy">shop</a></li>
+        </ul>
+        <img class="menu-btn" src="data:image/png;base64,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" alt="logo" />
+    </nav>
+    <header>
+        <div class="container">
+            <h1>Magic Leap 2: The most immersive AR headse for enterprise</h1>    
+            <h2>Magic Leap 2 has industry-leading optics for best-in-class image quality. A 70° field of
+                view delivers an expansive digital workspace. While pioneering dynamic dimming
+                capabilities boost the solidity of digital content in bright environments.
+            </h2>
+            <h2>Enterprise-ready, light as a pair of headphones, and ergonomically designed to support
+                modern Manufacturing, Health, Defense, and more.
+            </h2>
+            <h4>*Magic Leap 2 is not yet available for sale. Regulatory approval pending. Specifications subject to
+                change.</h4>
+        </div>
+        <div class="valume">
+            <a href=""><i class="fa-solid fa-volume-xmark"></i></a>
+        </div>
+        <div class="bottom newStyling">
+
+            <div class="bottom-1">
+                <h5> The Metaverse is Already Here</h5>
+                <a href="https://www.magicleap.com/news/peggy-johnson-leading-magic-leap-through-reinvention">
+                    Read full Story <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+
+            </div>
+            <div class="bottom-2">
+                <img src="https://www.magicleap.com/hubfs/vmware_logo.webp" alt="logo" width="40px" />
+                <h5> VMWare and Magic Leap Announce Strategic Collaboration</h5>
+                <a href="https://www.magicleap.com/blog-staging/vmware-and-magic-leap-announce-strategic-collaboration-2">
+                    Read full Story <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+            <div class="bottom-3">
+                <img src="https://www.magicleap.com/hubfs/cnbc-black-and-white.webp" alt="logo">
+                <h5>Magic Leap 2 Unveiled on CNBC</h5>
+                <a href="https://www.magicleap.com/news/magic-leap-ceo-peggy-johnson-sits-down-with-cnbc">
+                    Read full Story <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Events section -->
+    <section class="events">
+        <div class="title">
+            <h1 class="space">HEALTH MANUFACRUEING DEFFENSE & PUBLIC SECTOR</h1><hr/>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="https://www.magicleap.com/hubfs/imported-sitepage-images/health-df.png" width="500"
+                    alt="logo">
+            </div>
+            <div class="col">
+                <h2 class="part1">Preparing for life-changing surgery</h2><br/>
+                <p class="part1"> Surgeons at UC Davis Children's Hospital used Magic Leap technology to help plan for  
+                    <a href="https://www.youtube.com/watch?v=SYGU4rkqHCE"> the separation of rare, craniopagus twin babies</a> —twins that are joined at the
+                    head. 3D reconstructions of MRI and CT scans were uploaded and viewed on the
+                    <a href="https://www.magicleap.com/magic-leap-1">Magic Leap 1</a> headset using <a href="https://www.brainlab.com/surgery-products/overview-platform-products/mixed-reality-applications/?gclid=Cj0KCQiAvbiBBhD-ARIsAGM48byrEnDHiznOrIXeZuP0SX_6XOOmusIIaRiv7Ql64es11O9LgZgCdqkaAokYEALw_wcB">
+                        Mixed Reality Viewer from Brainlab</a> Experts could walk around and deconstruct the virtual models to help them review surgical plans.
+                </p><br />
+                <p class="part1">
+                    In the future, AR technology will support different stages of the surgical workflow—including
+                    in the O.R. for tracking instruments, or to overlay surgical
+                    plans onto the patient at a glance.
+                </p><br/>
+                <h2 class="part1">“I now plan every aneurysm case with Mixed Reality Viewer from Brainlab”</h2><br />
+                <h6 class="part1">Prof. Dr. Veit Braun <br/>
+                    M.D., Head of Neurosurgery, Diakonie Klinikum
+                </h6><br/>
+                <img class="part1" src="https://www.magicleap.com/hubfs/Glasses.svg" /><a>Glasses150+ devices in the field  of health globally</a><br/><br/>
+
+                <a class='ctn' href="https://www.magicleap.com/enterprise/solutions?hsCtaTracking=d2d27c4e-9196-494e-abdf-c8146285d092%7C31f25808-ce1c-40cb-a759-923f2fee3bf2">
+                    Contact Sales
+                </a>
+                <a class="ctn" href="https://www.magicleap.com/enterprise/solutions?hsCtaTracking=0deb8027-9f34-4db9-b4d7-96c51c9de0d2|16e7ba27-c10e-491b-898a-630f251a12a7">
+                    See All Solution
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1 class="explore-1">A light,wearable computer to echance producticity</h1>
+            <img class="explore-img" src="https://www.magicleap.com/hubfs/Lightwear__2_.webp" width="1000" alt="logo"/>
+
+            <p>Enable innovation, improve output, and increase ROI. Enterprise-ready solutions on Magic Leap 1 arm your
+                <br />
+                employees with tools to augment and enhance their skills.
+            </p>
+        </div>
+
+        <div class="para">
+            <div class="para-1">
+                <img src="https://www.magicleap.com/hubfs/Chat.webp" alt="chat">
+                <h2>Empower employees</h2>
+                <div class="line1">
+                    <p>Get expert remote assistance to professionals, frontline workers, and field technicians
+                        anytime they need it. Hands-free capture and live streaming keeps workers engaged and
+                        focused on task completion.
+                    </p>
+                </div>
+            </div>
+
+            <div class="para-1">
+                <img src="https://www.magicleap.com/hubfs/Clipboard.webp" alt="logo">
+                <h2>Transform training</h2>
+                <p>Convert inefficient paper processes to digital documentation that can be shared with workers
+                    instantly and updated regularly. Track results, improve performance, and cut down on costly
+                    errors.
+                </p>
+            </div>
+
+            <div class="para-1">
+                <img src="https://www.magicleap.com/hubfs/PersonalWorld.webp" alt="logo">
+                <h2>At world-scale</h2>
+                <p>The workplace of the (near) future is intelligent and connected. Remote collaboration and 3D
+                    visualization will combine with real-world understanding, the AR cloud, and increased
+                    connectivity to deliver information and experience right where your business needs it to be, at
+                    any scale.
+                </p>
+            </div>
+        </div>
+        <a class="para-btn" href="https://www.magicleap.com/magic-leap-1?hsCtaTracking=673deb67-622c-4231-a530-ef19c83ffdf5%7C34651ffb-5309-4360-a0ac-24c6a08b131"> Explore Magic Lea </a>
+        <h1>Get started with enterprise-ready solutions</h1>
+        
+        <div class="grid">
+            <div class="grid-item">
+                <div class="card-1">
+                    <img class="card-img" src="https://www.magicleap.com/hs-fs/hubfs/vuforia-1.png?width=128&height=128&name=vuforia-1.png" width="100px" alt="logo">
+                    <div class="card-content">
+                        <h1 class="card-header">Vuforia Expert  Capture</h1>
+                        <p>By PTC</p>
+                        <p class="card-text">Build powerful AR experiences to connect, educate, and engage users.</p>
+                    </div>
+
+                    <a href="https://www.magicleap.com/vec">Learn More</a>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="card-1">
+                    <img class="card-img" src="https://www.magicleap.com/hs-fs/hubfs/Imported%20sitepage%20images/Manifest.png?width=128&height=128&name=Manifest.png" width="100px" alt="logo">
+                    <div class="card-content">
+                        <h1 class="card-header">Manifest </h1>
+                        <p class="card-text">By Taqtile</p>
+                        <p class="card-text">Guidance from your best technicians anywhere, anytime.</p>
+                        <a href="https://www.magicleap.com/taqtile-manifest">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="card-1">
+                    <img class="card-img" src="https://www.magicleap.com/hs-fs/hubfs/Imported%20sitepage%20images/Solution_Icon.png?width=128&height=128&name=Solution_Icon.png" width="100px" alt="logo">
+                    <div class="card-content">
+                        <h1 class="card-header">Mixed Reality Viewer</h1>
+                        <p class="card-text">By Brainlab</p>
+                        <p class="card-text">Up to 4 users can interact with photorealistic, 3D images of patient anatomy.
+                        </p>
+                        <a href="https://www.magicleap.com/brainlab-mixed-reality-viewer">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="card-1">
+                    <img class="card-img" src="https://www.magicleap.com/hs-fs/hubfs/Imported%20sitepage%20images/Solution_Icon-1.png?width=128&height=128&name=Solution_Icon-1.png" width="100px" alt="logo">
+                    <div class="card-content">
+                        <h1 class="card-header">EON-XR Platform</h1>
+                        <p class="card-text">By EON Reality</p>
+                        <p class="card-text">Learn, train, and perform with immersive lessons and experiences.</p>
+                        <a href="https://www.magicleap.com/eon-xr-platform">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>  
+  
+        <a class="gridBtn_1" href="https://www.magicleap.com/enterprise/solutions?hsCtaTracking=9dfc295f-a91f-4b81-8787-1d1059d86759%7C378ffdd1-f0a5-4ba5-ba28-bfd200878d9f">See All solutions</a>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col image-col">
+                <img src="https://www.magicleap.com/hs-fs/hubfs/Imported%20sitepage%20images/Img.png?width=580&height=436&name=Img.png" alt="logo">
+            </div>
+
+            <div class="col content-col">
+                <h1>Develop for Magic Leap 1</h1>
+                <p>
+                    Leverage the capabilities of Magic Leap 1 to solve real-world problems facing industries today.
+                    Develop AR solutions that improve communication, reduce errors, and visualize solutions.
+                    Unite remote experts with frontline workers and enable professionals to verify or modify designs
+                    in the field.
+                </p><br />
+                <a class="ctn" href="https://www.magicleap.com/magic-leap-1?hsCtaTracking=f5742222-b31d-4663-9dbb-982476c3374b%7C674817e9-9f9d-419f-9713-d7577a810f11">Start Building</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="main-div">
+            <h1>Get the latest news and updates</h1>
+            <div class="box">
+                <form   method="" action="">
+                    <div class="inputBox">
+                        <label for="email">Email*</label>
+                        <input type="text" name="email" autocomplete="off" required>
+                    </div>
+
+                    <div class="inputBox">
+                        <label for="username">User Name</label>
+                        <input type="text" name="username" autocomplete="off" required>
+                    </div>
+
+                    <div class="inputBox">
+                        <label for="Action">Area of Interest*:</label>
+                        <input type="text" name="areaofintrest" autocomplete="off" required>
+                    </div>
+                    <input type="submit" class="submit1" value="submit">
+                </form>
+                
+            </div>
+            <p class="para1">Sign up to receive offers, promotions and other marketing emails from Magic Leap. You can opt out of them
+                at any time.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="info">
+            <div class="info-data">
+               
+                <div class="data11">
+                    <h3 >Buy</h3>
+                    <a href="https://www.magicleap.com/magic-leap-1">Magicleap</a><br/>
+                    <a href="https://shop.magicleap.com/#/">Shop</a>
+                
+                    <h3>Customer Support</h3>
+                    <a href="https://www.magicleap.care/hc/en-us/articles/360025761852-Magic-Leap-Getting-Started">Get Started</a><br/>
+                    <a href="https://shop.magicleap.com/#/order-status">Order Status</a><br/>
+                    <a href="https://auth.magicleap.com/v2/login?consent=02d85756-8360-4386-ac3c-5006f10e1517&consent_csrf=410ac713-aed4-479f-b46c-ee08f69807a4&locale=en-US">My Account</a></br/>
+                    <a href="https://www.magicleap.care/hc/en-us">Care Center</a><br/>
+                    <a href="https://resources.magicleap.com/en-us/downloads">Downloads</a>
+                </div>
+               
+                <div class="info-data2">
+                    <h3> For Enterprise</h3>
+                    <a href="https://www.magicleap.com/enterprise/solutions">Magic Leap for Enterprise</a><br/>
+                    <a href="https://enterprise.magicleap.com/#/signup/landing">Enterprise Sales Portal</a>
+              
+
+                    <h3>About Magic Leap</h3>
+                    <a href="https://www.magicleap.com/en-us/">Home</a><br/>
+                    <a href="https://world.magicleap.com/en-us">Apps</a><br/>
+                    <a href="https://www.magicleap.com/news">Newsroom</a><br/>
+                    <a href="https://resources.magicleap.com/en-us/careers">careers</a>
+                </div>
+
+                <div class="info-data3">
+                    <h3>For Developers</h3>
+                    <a href="https://developer.magicleap.com/en-us/home">Developer Portal</a><br/>
+                    <h3>Follow us on</h3>
+        
+                    <a href="https://www.facebook.com/magicleap">
+                        <img src="https://www.santaanita.com/wp-content/uploads/2020/05/facebooklogo.png" width="30px">
+                    </a>
+                    <a href="https://www.instagram.com/magicleap/">
+                        <img src="https://www.contentmerchants.com/wp-content/uploads/2020/07/instagram-logo-transparent-background-png-5.png" width="38px"> 
+                    </a>
+                    <a href="https://twitter.com/magicleap">
+                        <img src="https://logowik.com/content/uploads/images/207_twitter.jpg" width="45px"> 
+                    </a>
+                    <a href="https://www.youtube.com/channel/UC2E1x3l45YUO2eOhRv-A7lw">
+                        <img src="https://www.nicepng.com/png/detail/301-3019157_youtube-circle-twitter-circle-icon-vector.png" width="28px">
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class=" footer">
+        <div class="msg">
+            <div class="footer-nav">
+                <a href="https://resources.magicleap.com/en-us/legal">Legal</a>
+                <a href="https://resources.magicleap.com/en-us/privacy">Privacy</a>
+                <a href="https://resources.magicleap.com/en-us/access-preference-center">Email Preferences</a>
+                <a href="https://www.magicleap.com/en-us/">Cookie Preferences</a>
+            </div>
+           
+        <hr/>
+            <div class="copy-writer">
+                <div><h3>Copyright © 2018 - 2022 Magic Leap, Inc.</h3></div>
+                <div><h3>Made with &hearts; in Florida </h3></div>
+                <div><h3>English-United States</h3></div>
+                
+            </div>
+            
+        </div>
+        <div class="message"></div>
+        <div class="footer-container">
+            <button id="click-me">Details</button>
+            <button>Accept</button>
+        </div>
+           
+        
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
